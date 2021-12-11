@@ -1,0 +1,19 @@
+.game-cell {
+    --size: 50px;
+    height: var(--size);
+    width: var(--size);
+
+    background: white;
+    border-radius: 30%;
+    margin: 5px;
+
+    transition: background-color 0.2s;
+}
+
+.game-cell.red {
+    background: #E0115F;
+}
+
+.game-cell.blue {
+    background: #398AD7;
+}
